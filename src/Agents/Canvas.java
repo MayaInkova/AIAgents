@@ -46,7 +46,7 @@ public class Canvas extends JPanel {
             }
         });
 
-        setFocusable(true); // За да може панелът да хваща събития от клавиатурата
+        setFocusable(true); //   Тук панелът  хваща събития от клавиатурата
         requestFocusInWindow();
     }
 
