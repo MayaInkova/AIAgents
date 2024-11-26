@@ -77,7 +77,7 @@ public class Canvas extends JPanel {
             Shape scaledShape = transform.createTransformedShape(shape);
 
             g2d.setColor(agent.generateColor());
-            g2d.fill(scaledShape); // Попълване на формата с цветен агент
+            g2d.fill(scaledShape); // Попълване с цветен агент
         }
     }
 }
