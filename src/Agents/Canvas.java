@@ -8,7 +8,7 @@ import java.util.List;
 
 public class Canvas extends JPanel {
     private final List<AIImageAgent> agents; // Списък с агенти
-    private double scaleFactor = 1.0; // Мащаб за зуум
+    private double scaleFactor = 1.0; // Мащаб за зуумане
 
     public Canvas(List<AIImageAgent> agents) {
         this.agents = agents;

@@ -46,11 +46,11 @@ public class AIImageAgent {
             case 2: // Линия
                 return new Line2D.Double(x, y, x + size, y + size);
             default:
-                return new Ellipse2D.Double(x, y, size, size); // По подразбиране - кръг
+                return new Ellipse2D.Double(x, y, size, size); // По подразбиране
         }
     }
 
-    // Генериране на случайна цветова стойност за агента
+    // Генериране на случайна цветова  за агента
     public Color generateColor() {
         return new Color(random.nextInt(256), random.nextInt(256), random.nextInt(256));
     }

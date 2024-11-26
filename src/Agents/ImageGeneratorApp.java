@@ -14,7 +14,7 @@ public class ImageGeneratorApp {
         // Добавяне на поне 1 агент за тест
         agents.add(new AIImageAgent("Agent 1"));
 
-        // Тук потребителят може да въведе колко агента да има
+        // Тук потребителят може да въведе  от клавиатурата колко агента да има
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter the number of agents to create: ");
         int numberOfAgents = scanner.nextInt();
